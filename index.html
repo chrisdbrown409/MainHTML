@@ -99,7 +99,7 @@ body, html {
 	height: 100%;
 	text-align: Left;
   	width: 130px;
-  	position: fixed;
+  	position: absolute; /*will hold sidenav in place*/
  	 z-index: 1;
   	top: 220px;
   	left: 10px;
@@ -137,7 +137,9 @@ body, html {
 	
  footer {
 	/*position: Fixed; this makes it sticky always at the bottom of the page*/
-	width: 100%;
+	margin-left: 40px;
+	/*width: 100%;*/
+	padding: 0px 0px 10px 0px; /*top,right,bottom, left */
 	left: 0;
 	bottom: 0;
 	background-color: White;
@@ -169,12 +171,10 @@ body, html {
 
  
 <div class="sidenav">
-    	<p style="font-family: times,serif; font-size:12pt; text-align: left; font-style:normal">
-	<U>Additional Links</U>
-	</P>
+    	<p style="font-family: times, serif; font-size:12pt; text-align: left; font-style:normal"> <U>Additional Links</U></P>
 	<a href="https://chrisdbrown409.github.io/MainPage/">  Home</a>
     	<a href="https://github.com/chrisdbrown409" >  GIT Hub Root</a>	
-    	<a href="https://github.com/chrisdbrown409/MainPage/blob/main/index.html" >  GIT Hub Repository</a>
+    	<a href="https://github.com/chrisdbrown409/MainHTML" >  GIT Hub Repository</a>
     	<a href = mailto:chrisdbrown409@gmail.com>  Email Author</a>
     	<a href="https://www.linkedin.com/in/chrisbrown72/">  Author's Profile</a>
 	<!--- LinkedIn Profile: <a href="https://www.linkedin.com/in/chrisbrown72/" target="_blank">https://www.linkedin.com/in/chrisbrown72/</a><br /> --->
@@ -248,8 +248,9 @@ Site Pages<br />
 <div class="content">
   <p>
     <blockquote>
-    HTML1:<a href="https://chrisdbrown409.github.io/HTML1/" target="_blank">https://chrisdbrown409.github.io/HTML1/</a><br />
-    HTML2:<a href="https://chrisdbrown409.github.io/HTML2/" target="_blank">https://chrisdbrown409.github.io/HTML2/</a><br />      
+	    HTML1:<a href="https://chrisdbrown409.github.io/HTML1/" target="_blank">https://chrisdbrown409.github.io/HTML1/</a>
+	    <br />    	
+	    HTML2:<a href="https://chrisdbrown409.github.io/HTML2/" target="_blank">https://chrisdbrown409.github.io/HTML2/</a>
       
     </blockquote>
   </p>
@@ -286,13 +287,17 @@ for (i = 0; i < coll.length; i++) {
 </html>
    
   <!---
-  References:
-  	Page URL: https://chrisdbrown409.github.io/MainHTML/
-	Side Nav: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_sidenav_fixed
-  	Color Ref: https://blog.hubspot.com/website/change-background-color-html
-  	Email Ref: https://www.tutorialspoint.com/html/html_email_links.htm
- 	Collapse Ref: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_collapsible
-	Lists Ref: https://www.w3schools.com/html/tryit.asp?filename=tryhtml_lists_ordered
-	Style Line: <p style="font-family: times, serif; font-size:12pt; font-style:normal">
-	hero image: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_hero_image
+Page References:
+	1.  Page URL: https://chrisdbrown409.github.io/MainHTML/
+
+Site References:
+  	1. Collapse Ref: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_collapsible
+	2. Color Ref: https://blog.hubspot.com/website/change-background-color-html
+  	3. Color Picker: https://www.google.com/search?q=html+color+picker&rlz=1C1ONGR_enUS947US947&oq=html+color&aqs=chrome.2.35i39j69i57j0i433j0i20i263l2j0i433j0l3.6575j0j15&sourceid=chrome&ie=UTF-8
+	4. Email Ref: https://www.tutorialspoint.com/html/html_email_links.htm
+ 	5. hero image: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_hero_image
+	6. Lists Ref: https://www.w3schools.com/html/tryit.asp?filename=tryhtml_lists_ordered
+	7. Side Nav: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_sidenav_fixed	
+	8. Style Line: <p style="font-family: times, serif; font-size:12pt; font-style:normal"> 	
+
   --->
